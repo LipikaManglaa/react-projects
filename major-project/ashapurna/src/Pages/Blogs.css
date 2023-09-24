@@ -1,0 +1,79 @@
+.blog-btn{
+    border:none!important;
+    background-color:#fff!important;
+    color: #000!important;
+
+}
+.rpost{
+    color:#212529;
+    
+}
+.post-content{
+    border-bottom: 2px solid #ccc;
+}
+.post-content p{
+    padding-right:60px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    line-clamp:2;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 700;
+}
+.post-content:hover{
+    color:#be8553;
+}
+.span1{
+    color: #0d6efd;
+    font-weight:700;
+    font-size:18px;
+}
+.span2{
+    color: #0d6efd;
+    font-weight:500;
+    font-size:16px;
+}
+.block{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 30px!important;
+}
+.blog-time p{
+    color:#5a5a5a;
+    font-size:13px;
+    padding:10px 0px;
+    text-transform: uppercase;
+}
+.blog-left h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.blogp p{
+    padding-right:60px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    line-clamp:4;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: justify;
+}
+.bicon{
+    width:30px;
+    height:30px;
+    padding:3px;
+    border:none;
+    border-radius: 50%;
+    background:#252525;
+    color:#fff;
+}
+.skycolor{
+    background-color: #51acfb;
+}
+.fcolor{
+    background-color: #0a58ca;
+}
+.gcolor{
+    background-color: #00d084;
+}

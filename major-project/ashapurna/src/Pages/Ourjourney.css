@@ -1,0 +1,140 @@
+.our-journey-main{
+    background:url("./ourjourneyimages/floor-plan.jpg") no-repeat;
+    background-size: contain;
+    background-position: 20.6% 100%;
+     padding:50px 0px;
+    margin: 50px 0px;
+}
+.our-journey-info{
+    border-bottom: 10px solid #be8553;
+}
+.our-journey-info span{
+    padding-top:80px!important;
+    color:#be8553!important;
+}
+.our-journey-info .spanborder{
+    width: 81px;
+    border-top: 2px solid #be8553;
+    position: absolute;
+    left:120px;
+    top: 28px;
+}
+.our-journey-info h3{
+    font-weight: 600;
+    font-size:30px;
+}
+.our-journey-info p{
+    text-align: justify;
+}
+
+.journey-info h2{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.jinfo-main{
+    border-radius: 10px;
+    width:350px;
+    position: relative;
+}
+.triangle_right{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 17px solid #be8553;
+    top: 50%;
+    left:100%;
+    position: absolute;
+}
+.triangle_left{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 17px solid #be8553;
+    top: 50%;
+    left:-17px;
+    position: absolute;
+}
+
+.jinfo-main h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+.jborder{
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    background-color: #e8ebed!important;
+    top: 0;
+    left: 45%!important;
+}
+.milestone-dotl{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #be8553!important;
+    position: absolute;
+    left:44%;
+    top: 50%;
+    right: 0;
+}
+.milestone-dotl::after{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #be8553!important;
+    background: #be8553!important;
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    content: "";
+    z-index: 99;
+}
+.milestone-dotr{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #be8553!important;
+    position: absolute;
+    left:44%;
+    top: 50%;
+    right: 0;
+}
+.milestone-dotr::after{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #be8553!important;
+    background: #be8553!important;
+    position: absolute;
+    top: 33%;
+    right:33%;
+    content: "";
+    z-index: 99;
+}
+@media only screen and (min-width:200px) and (max-width:991px){
+    .our-journey-main{
+      margin-top:-80px;
+      margin-bottom: 100px;
+    }
+    .our-journey-info{
+        top:150px;
+    }
+    .triangle_left{
+        display: none;
+    }
+    .triangle_right{
+        display: none;
+    }
+    .jborder{
+        display: none;
+    }
+    .milestone-dotl{
+        display: none;
+    }
+    .milestone-dotr{
+        display: none;
+    }
+}

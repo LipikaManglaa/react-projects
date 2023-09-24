@@ -1,0 +1,30 @@
+.nri-form input{
+    border:1px solid #87898e;
+}
+.nri-form{
+    border-left: 7px solid #be8553;
+}
+.nri-info span{
+    padding-top:60px;
+    
+    color:#be8553!important;
+}
+.nri-info .spanborder{
+    width: 81px;
+    border-top: 2px solid #be8553;
+    position: absolute;
+    left:45px;
+    top: 28px;
+}
+.nri-info h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.nri-info h5{
+    font-size:28px;
+    color: #87898e;
+}
+.nrih h2{
+    font-size: 40px;
+    font-weight: 600;
+}

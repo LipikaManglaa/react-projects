@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "riha",
+      "email": "riha@gmail.com",
+      "password": "123",
+      "mobile": "123456",
+      "message": "testing",
+      "id": 2
+    },
+    {
+      "name": "lipi",
+      "email": "lipi@gmail.com",
+      "password": "123",
+      "mobile": "1223",
+      "message": "testing",
+      "id": 3
+    },
+    {
+      "name": "pranat",
+      "email": "pranat@gmail.com",
+      "password": "123456",
+      "mobile": "1223455",
+      "message": "testing",
+      "id": 4
+    },
+    {
+      "uname": "sdfdsdf",
+      "usname": "test20",
+      "uemail": "jain_mohit24@hotmail.com",
+      "uphone": "98765543",
+      "id": 5
+    },
+    {
+      "name": "Mohit Jain",
+      "email": "jain_mohit24@hotmail.com",
+      "phone": "0404182285",
+      "property": "Ashapurna Mall",
+      "enquiry": "ffggg",
+      "id": 6
+    },
+    {
+      "name": "Mohit Jain",
+      "email": "jain_mohit24@hotmail.com",
+      "phone": "0404182285",
+      "property": "Ashapurna NRI",
+      "enquiry": "vvcfdfddfs",
+      "id": 7
+    }
+  ],
+  "enquiry": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "uname": "lipika",
+      "usname": "test1",
+      "uemail": "test@gmail.com",
+      "uphone": "123456",
+      "id": 2
+    },
+    {
+      "uname": "neeru",
+      "usname": "rani",
+      "uemail": "neeru@gmail.com",
+      "uphone": "1222333",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

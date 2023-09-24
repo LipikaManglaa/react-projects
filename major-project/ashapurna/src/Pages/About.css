@@ -1,0 +1,123 @@
+
+.about-main{
+    background:url('./aboutimages/aboutbanner.webp');
+    padding:60px 0px;
+}
+.about-info1 ul{
+    list-style:none;
+}
+.about-info1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.breadcrumb-item:last-child::before{
+    content:"/"!important;
+    color:#fff!important;
+}
+.hcolor{
+    color:#062f43!important;
+}
+.pcolor{
+    color: #5a5a5a!important;
+    font-size:14px!important;
+}
+.scolor{
+    color:#be8553!important;
+}
+.office-info span{
+    padding-top:60px;
+    
+    color:#be8553!important;
+}
+.office-info .spanborder{
+    width: 81px;
+    border-top: 2px solid #be8553;
+    position: absolute;
+    left:100px;
+    top: 25px;
+}
+.counter-info{
+    background:url('./aboutimages/aboutmain-features-bg-new.png');
+    border-radius: 10px;
+}
+.counter-info-box span{
+    font-size:14px;
+    
+    font-weight: 700;
+}
+.counter-info-box h4{
+    font-size:18px;
+    
+    font-weight: 700;
+}
+.project-row1 h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.project-row2{
+    top:10px;
+}
+.vision{
+    background:url('./aboutimages/mission-vision-bg.png');
+    height:150px;
+    padding:30px 0px;
+    margin-bottom: 150px!important;
+    margin-top:80px!important;
+}
+.vision-content h3{
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.visionhr{
+   width:100px;
+   height:1px;
+   border:1px solid #062f43!important;
+}
+.vision-content p{
+    font-size:14px!important;
+}
+.vision-row{
+    top:10px;
+   
+}
+.vision-info{
+    border-radius: 10px!important;
+}
+.vision-info img{
+    border-radius: 10px;
+}
+.floor-plan{
+    /* background: url('./aboutimages/floor-plan.jpg') no-repeat center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20.6% 100%;
+    padding: 150px 0;
+}
+.ach-info{
+    border-bottom: 10px solid #be8553;
+    border-right: 10px solid #be8553;
+    top:40px;
+    
+}
+.ach-info h2{
+    font-size:30px;
+    font-weight:600;
+}
+@media only screen and (min-width:200px) and (max-width:575px) {
+   .floor-plan{
+    margin-top:250px!important;
+   }
+   .ach-info{
+    top:80px;
+   }
+}
+@media only screen and (min-width:576px) and (max-width:991px) {
+    .floor-plan{
+        margin-top:250px!important;
+       }
+       .ach-info{
+        top:80px;
+       }
+}

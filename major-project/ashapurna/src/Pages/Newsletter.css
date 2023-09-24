@@ -1,0 +1,43 @@
+.news-heading h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.news-letter{
+    width:530px;
+    height:270px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    border-radius: 20px;
+    margin:10px 0px;
+}
+.news-letter img{
+    width:50%;
+    height:100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+}
+.news-letter h3{
+    font-size:20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.news-letter a{
+    text-decoration: none;
+    color:#be8556;
+    font-weight: 600;
+    font-size: 16px;
+}
+.news-letter p{
+    
+    display: -webkit-box;
+    line-clamp:5;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    line-height: 24px;
+}
+@media only screen and (min-width:200px) and (max-width:991px){
+    .news-letter{
+        width:520px;
+        
+    } 
+}

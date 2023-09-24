@@ -1,0 +1,22 @@
+.why-invest h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.why-info h3{
+    font-size:24px;
+    font-weight: 600;
+    color: #32343b!important;
+}
+.why-info p{
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.why-info ol li{
+    font-size: 14px;
+}
+.why-info ul li{
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+}

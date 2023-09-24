@@ -1,0 +1,67 @@
+.media-main{
+    background:url('./contactimages/conatactbanner.webp');
+    padding:60px 0px;
+}
+.media-info1 ul{
+    list-style:none;
+}
+.media-info1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.breadcrumb-item:last-child::before{
+    content:"/"!important;
+    color:#fff!important;
+}
+.media-upper span{
+    padding-top:80px!important;
+    color:#be8553!important;
+}
+.media-upper .spanborder{
+    width: 81px;
+    border-top: 2px solid #be8553;
+    position: absolute;
+    left:200px;
+    top: 60px;
+}
+.media-upper h3{
+    font-weight: 600;
+    font-size:34px;
+}
+.media-upper p{
+    font-size:13px!important;
+}
+.media-life h2{
+    font-size:30px;
+    font-weight: 600;
+}
+.life-img-div{
+    width:450px;
+    height:300px;
+    background-color: #be8553;
+    top:-20px;
+    left:60px;
+    z-index: -99;
+}
+.life-img-div img{
+    margin-left: -20px;
+}
+.camp{
+    background-color: #f4efeb;
+    padding: 40px 0px;
+}
+.camp h2{
+    font-weight: 600;
+    font-size:30px;
+}
+.media-box h4{
+    font-size:17px;
+    font-weight: 600;
+}
+.media-btn{
+    background-color: #be8553;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding:5px 10px;
+}
