@@ -4,7 +4,7 @@ There are different types of react projects under one repo which is below:
 Ashapurna(Real Estate)
  Developed the front-end using ReactJS.
  Used ReactJS API for fetching and displaying dynamic data, such as property listings and details.
-• Mini ReactJS Projects
+• Mini ReactJS Projects are below:
 1. Weather Forcasting App
  Weather forecasting web app, which fetches real-time weather data and displays it based on 
 location. 
