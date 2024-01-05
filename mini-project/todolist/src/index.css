@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #10B981;
+}
+input:focus{
+  border: none !important;
+  outline: 0px;
+}
+button{
+  color :#fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.tolist{
+  border: 3px solid #10B981;
+  background-color: #fff;
+  color: #10B981;
+  font-weight: bold;
+}
+button{
+  background-color: #10B981;
+  color:#fff;
+  padding:3px 5px;
+}
