@@ -32,7 +32,9 @@ interface.
 * [Installation](#installation)
   
 * [Instructions](#Instructions) 
-          
+
+* [Screenshots](#Screenshot)
+
 * [Questions](#questions)
  
 * [License](#license)  
@@ -47,7 +49,16 @@ interface.
   *ReactJS
   *API handling
  
+  ### Screenshots
 
+  Random Password Generator
+   ![This is screenshot](./screenshot/password.png)
+
+  TODO List
+   ![This is screenshot](./screenshot/todolist.png)
+
+  calculator
+   ![This is screenshot](./screenshot/calculator.png)
 
 ### Installing
 
